@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+}
+
+.upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    height: 450px;
+    width: 400px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px -15px black;
+    border-radius: 5px;
+}
+
+#file {
+    display: none;
+}
+
+img {
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    top: -15%;
+    transform: translateX(-50%);
+    width: 80px;
+    filter: invert(39%) sepia(85%) saturate(725%) hue-rotate(208deg) brightness(84%) contrast(90%);
+}
+
+.upload {
+    position: relative;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 220px;
+    background-color: #f8f9fa;
+}
+
+.head {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+p {
+    color: #bfc0c0;
+    font-size: 18px;
+}
+
+.button {
+    width: 220px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #5e60ce;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    box-shadow: 0px 3px 10px -5px black;
+    cursor: pointer;
+}
+
+.button p {
+    color: #fff;
+}
+
+h1 {
+    font-weight: 900;
+    color: #001845;
+    margin-bottom: 5px;
+}
